@@ -1,0 +1,483 @@
+body{
+    font-family: Arial;
+    
+    background-color: whitesmoke;
+}
+div.main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header{
+    position: relative;
+}
+header div img.faq{
+    position: absolute;
+    top: -12px;
+    right: 45px;
+}
+header div img.logo{
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 75px;
+}
+header div.links{
+    display: flex;
+    align-items: flex-end;
+}
+header ul{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 0;
+}
+header div ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+header div ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+header div ul li a:hover{
+    text-decoration: underline;
+}
+/*****************************************
+************SECTION - PEOPLES************
+*****************************************/
+section.container_peoples{
+    display: flex;
+    margin: 70px 40px  0 40px;
+    
+}
+section div.words{
+    margin: 65px 0 5px 0;
+    background-image: url(../images/words.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex: 1;
+}
+section div.peoples{
+    flex: 1;
+}
+section div.peoples img{
+    margin-left: 93px;
+}
+section div div{
+    height: 50%;
+}
+section div div p#big{
+    /*margin-top: -10px;*/
+    font-size: 23px;
+    text-transform: uppercase;
+    /*line-height: 5px;*/
+}
+section div div p#big:first-letter{
+    font-size: 30px;
+    font-weight: 100;
+}
+section div div p#small{
+    /*line-height: 5px;*/
+    font-size: 16px;
+    /*text-align: center;*/
+    margin-left: 143px;
+    color: #2c789c;
+}
+/*****************************************
+*************SECTION - COLORS*************
+*****************************************/
+section.container_colors{
+    display: flex;
+    margin: 15px 40px  0 40px;
+    margin-top: 15px;
+}
+section div.blue{
+    position: relative;
+    width: 100px;
+    height: 154px;
+    background-image: url(../images/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex: 1;
+}
+section div.yellow{
+    position: relative;
+    width: 100px;
+    height: 154px;
+    background-image: url(../images/yellow_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex: 1;
+}
+section div.green{
+    position: relative;
+    width: 100px;
+    height: 154px;
+    background-image: url(../images/green_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex: 1;
+}
+section  div.blue p.head{
+    font-size: 19px;
+    margin: 8px 0 0 15px;
+    color: #fff;
+}
+section  div.blue p.inside{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 13px 55px 0 15px;
+    color: #fff;
+}
+section.container_colors div a{
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    box-sizing: border-box;
+    width: 110px;
+    height: 25px;
+    margin: 15px 0 0 15px;
+    padding-top: 2px;
+    transition-duration: .3s, .3s;
+    transition-property: background-color, border;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+}
+section.container_colors div a:hover{
+    padding-top: 2px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+section  div.yellow p.head,
+section  div.green p.head{
+    font-size: 19px;
+    margin: 8px 0 0 30px;
+    color: #fff;
+}
+section  div.yellow p.inside,
+section  div.green p.inside{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 13px 35px 0 30px;
+    color: #fff;
+}
+section  div.yellow a,
+section  div.green a{
+    margin-left: 30px;
+}
+section.container_colors div img{
+    position: absolute;
+    top: 6px;
+    right: 12px;
+}
+/*****************************************
+*************SECTION - WELCOME*************
+*****************************************/
+section.container_welcome{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+section.container_welcome div{
+    height: 200px;
+    /*border: 1px solid black;*/
+}
+section.container_welcome div.welcome_back{
+    height: 170px;
+}
+section.container_welcome div.welcome_middle{
+    position: absolute;
+    z-index: 2;
+    width: calc(100% - 34px);
+    height: 270px;
+    margin-left: 17px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;
+}
+section.container_welcome div.welcome_bottom{
+    height: 600px;
+    background-color: #1d1e1b;
+}
+div.contaner_welcome_inner{
+    display: flex;
+}
+div.contaner_welcome_inner div.inner_text{
+    /*background-color: gray;*/
+    height: 270px;
+    flex: 2.6;
+}
+div.contaner_welcome_inner div.input{
+    /*background-color: green;*/
+    height: 270px;
+    flex: 1.4;
+}
+div.contaner_welcome_inner div.inner_text h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 19px;
+    max-width: 580px;
+    margin: 18px 0 0 35px;
+}
+div.contaner_welcome_inner div.inner_text p.text_bold{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    max-width: 580px;
+    margin: 12px 0 0 35px;
+}
+div.contaner_welcome_inner div.inner_text p.text_regular{
+    font-size: 15px;
+    line-height: 19px;
+    max-width: 580px;
+    margin: 18px 0 0 35px;
+    color: #7b7d78;
+}
+div.contaner_welcome_inner div.inner_text a,
+div.contaner_welcome_inner div.input a{
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    box-sizing: border-box;
+    width: 110px;
+    height: 25px;
+    margin: 18px 0 0 35px;
+    padding-top: 2px;
+    transition-duration: .3s, .3s;
+    transition-property: background-color, border;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #000;
+}
+div.contaner_welcome_inner div.input a{
+    margin: 34px 0 0 15px;
+}
+div.contaner_welcome_inner div a:hover{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+div.contaner_welcome_inner div.input h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 18px 0 9px 15px;
+}
+div.contaner_welcome_inner div.input input{
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+    width: 250px;
+    margin: 18px 0 0 15px;
+    color: #7b7d78;
+}
+div.contaner_welcome_inner div.input input.first{
+    margin: 0 0 0 15px;
+}
+/*****************************************
+*************SECTION - PLANNING*************
+*****************************************/
+section.container_welcome div.welcome_bottom{
+	display: flex;
+}
+div.welcome_bottom div.planning{
+	flex: 1;
+	margin: 100px 15px 0 40px;
+}
+div.welcome_bottom div.ourtime{
+	flex:1;
+	margin: 100px 15px 0 15px;
+}
+div.welcome_bottom aside.baxterblog{
+	flex: 1;
+	margin: 100px 40px 0 15px;
+}
+div.welcome_bottom h3{
+	color: #fff;
+	font-size: 16px;
+	margin: 23px 0 0 0;
+}
+div.welcome_bottom div.planning img, div.welcome_bottom div.ourtime img{
+	margin: 10px 0 0 0;
+}
+div.welcome_bottom div.planning p, div.welcome_bottom div.ourtime p{
+	font-size: 13px;
+	letter-spacing: -1px;
+    /*font-family: 'Arial Narrow', arial;*/
+	line-height: 19px;
+	color: #acacac;
+}
+div.welcome_bottom div.planning a,
+div.welcome_bottom div.ourtime a{
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+    width: 110px;
+    height: 25px;
+    margin: 25px 0 0 0;
+    padding-top: 1px;
+    transition-duration: .3s, .3s;
+    transition-property: background-color, border;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #1d1e1b;
+    border-radius: 10px;
+    background-color: #2c789c;
+}
+div.welcome_bottom div.planning a:hover,
+div.welcome_bottom div.ourtime a:hover{
+	color: #2c789c;
+    border: 2px solid #2c789c;
+    background-color: #fff;
+}
+div.welcome_bottom aside.baxterblog h3{
+	display: inline-block;
+}
+div.welcome_bottom aside.baxterblog a.latests_posts{
+	font-size: 16px;
+	color: #2c789c;
+	letter-spacing: -1px;
+    margin:  0 0 0 15px;
+}
+table{
+    margin-top: 10px;
+}
+table tr td{
+    vertical-align: top;
+}
+table tr td h5{
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    /*letter-spacing: -1px;*/
+    font-family: 'Arial Narrow', arial;
+    margin: -2px 0 0 15px;
+}
+table tr td p{
+    color: #acacac;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -1px;
+    /*font-family: 'Arial Narrow', arial;*/
+    margin: 0 0 0 15px;
+}
+table tr td a{
+    color: #2c789c;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -1px;
+    margin: -3px 0 0 15px;
+    display: block;
+}
+tr:nth-child(2) td, tr:nth-child(3) td{
+    padding-top: 64px; 
+}
+/*****************************************
+*************SECTION - OUR PARTNERS*************
+*****************************************/
+section.footer_our_partners{
+    display: flex;
+    height: 200px;
+    background: linear-gradient(#5b5c59, #2e312c);
+}
+div.about_baxter{
+    flex: 1;
+    margin: 0 20px 0 40px;
+}
+div.our_partners{
+    flex: 1;
+    margin: 0 20px 0 20px;
+}
+div.list_our_partners{
+    flex: 1;
+    margin: 0 40px 0 20px;
+}
+section.footer_our_partners h6{
+    font-weight: 100;
+    margin: 20px 0 0 0;
+    color: #fff;
+    line-height: 17px;
+    font-size: 19px;
+}
+section.footer_our_partners p#description_about_baxter_p{
+    margin: 5px 0 0 0;
+    color: #94998f;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -1px;
+}
+section.footer_our_partners p#quisque{
+    color: #2c789c;
+    line-height: 17px;
+    letter-spacing: -1px;
+    margin: 3px 0 0 0;
+    font-size: 16px;
+}
+section.footer_our_partners ul{
+    padding: 4px 0 0 8px;
+    list-style-type: none;
+}
+section.footer_our_partners ul#list_our_partners_ul{
+    margin: 37px 0 0 0;
+}
+section.footer_our_partners ul li{
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -1px;
+    color: #94998f;
+}
+section.footer_our_partners li:before{
+    content: '+';
+    padding: 0 9px 0 0;
+}
+section.footer_our_partners li:not(:first-child){
+    margin: 11.5px 0 0 0;
+}
+
+footer{
+    height: 153px;
+    background-color: #131412;
+    display: flex;
+}
+footer div.policy{
+    flex: 1;
+}
+footer div.contacts{
+    flex: 1;
+}
+footer div.policy p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #94998f;
+    letter-spacing: -1px;
+    margin: 62px 0 0 39px;
+    font-family: Arial;
+}
+footer div.contacts ul{
+    list-style-type: none;
+    margin: 62px 0 0 0;
+}
+footer div.contacts ul li{
+    display: inline-block;
+    margin: 0 0 0 25px;
+}
+footer div.contacts ul li:first-child{
+    margin: 0;
+}
+footer div.contacts ul li a{
+    text-decoration: none;
+    color: #94998f;
+}
+footer div.contacts ul li a:hover{
+    color: #fff;
+
+}
